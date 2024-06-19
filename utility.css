@@ -1,0 +1,57 @@
+.border {
+    border: 2px solid red;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+.m-1 {
+    margin: 5px;
+}
+.p-1
+{
+    padding: 10px;
+}
+/* Define scrollbar track */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+    background-color: #333; /* Background color of the track */
+  }
+  
+  /* Define scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #666; /* Color of the thumb */
+    border-radius: 6px; /* Border radius of the thumb */
+  }
+  
+  /* Define scrollbar thumb on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #999; /* Color of the thumb on hover */
+  }
+  
